@@ -1,0 +1,29 @@
+body {
+  background: #222;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: center;
+}
+#gameboard {
+  position: relative;
+  margin: 20px auto;
+  background: #444;
+  width: 450px;
+  height: 450px;
+  border: 3px solid #888;
+  border-radius: 20px;
+}
+.square {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+#scoreboard {
+  margin: 15px auto;
+  font-size: 1.2em;
+}
+#winnerMsg {
+  font-size: 2em;
+  color: #ff0;
+}
